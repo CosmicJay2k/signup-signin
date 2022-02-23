@@ -10,30 +10,31 @@
   </head>
   <body class="bg-gray-500">
     <main>
-    <!-- Sign up form -->
-    <div class="flex justify-center">
-      <div class="w-full max-w-sm">
-        <div class="text-xl text-white text-center m-2">
-          <h1>Registrera användare</h1>
-        </div>
-        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <div class="mb-4">
-            <label
-            class="block text-gray-700 text-sm font-bold mb-2"
-            for="uNameSignup"
-            >Användarnamn</label
-            >
-            <input
-            class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
-            type="text"
-            id="uNameSignup"
-            name="uNameSignup"
-            placeholder="Användarnamn"
-            required
-            />
+      <!-- Sign up form -->
+      <div class="flex justify-center">
+        <div class="w-full max-w-sm">
+          <div class="text-xl text-white text-center m-2">
+            <h1>Registrera användare</h1>
           </div>
-          <div class="mb-4">
-            <label
+          <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <fieldset>
+              <div class="mb-4">
+                <label
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  for="uNameSignup"
+                  >Användarnamn</label
+                >
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
+                  type="text"
+                  id="uNameSignup"
+                  name="uNameSignup"
+                  placeholder="Användarnamn"
+                  required
+                />
+              </div>
+              <div class="mb-4">
+                <label
                   class="block text-gray-700 text-sm font-bold mb-2"
                   for="pWordSignup"
                   >Lösenord</label
@@ -49,23 +50,23 @@
                   required
                 />
               </div>
-                <div class="mb-4">
-                  <label
-                      class="block text-gray-700 text-sm font-bold mb-2"
-                      for="rName"
-                      >Fullständigt namn</label
-                      >
-                      <input
-                      class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
-                      type="text"
-                      id="rName"
-                      name="rName"
-                      placeholder="Gördis Karlsson"
-                      required
-                      />
-                    </div>
+              <div class="mb-4">
+                <label
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  for="rName"
+                  >Fullständigt namn</label
+                >
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
+                  type="text"
+                  id="rName"
+                  name="rName"
+                  placeholder="Gördis Karlsson"
+                  required
+                />
+              </div>
               <div class="mb-6">
-              <label
+                <label
                   class="block text-gray-700 text-sm font-bold mb-2"
                   for="eMail"
                   >E-postadress</label
@@ -79,58 +80,63 @@
                   required
                 />
               </div>
-          <input type="submit" value="Registrera"
-            class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded cursor-pointer"
-          >
-        </input>
-        </form>
-      </div>
-    </div>
-
-    <!-- Sign in form -->
-    <div class="flex justify-center">
-      <div class="w-full max-w-xs">
-        <div class="text-xl text-white text-center m-2">
-          <h1>Logga in</h1>
+              <input
+                type="submit"
+                value="Registrera"
+                class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded cursor-pointer"
+              />
+            </fieldset>
+          </form>
         </div>
-        <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
-          <div class="mb-4">
-            <label
-              class="block text-gray-700 text-sm font-bold mb-2"
-              for="uNameSignin"
-              >Användarnamn</label
-            >
-            <input
-              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
-              type="text"
-              id="uNameSignin"
-              name="uNameSignin"
-              placeholder="Användarnamn"
-              required
-            />
-          </div>
-          <div class="mb-6">
-            <label
-              class="block text-gray-700 text-sm font-bold mb-2"
-              for="pWordSignin"
-              >Lösenord</label
-            >
-            <input
-              class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
-              type="password"
-              id="pWordSignin"
-              name="pWordSignin"
-              placeholder="********"
-              required
-            />
-          </div>
-          <input type="submit" value="Logga in"
-            class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded cursor-pointer"
-          >
-        </input>
-        </form>
       </div>
-    </div>
-  </main>
+
+      <!-- Sign in form -->
+      <div class="flex justify-center">
+        <div class="w-full max-w-xs">
+          <div class="text-xl text-white text-center m-2">
+            <h1>Logga in</h1>
+          </div>
+          <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+            <fieldset>
+              <div class="mb-4">
+                <label
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  for="uNameSignin"
+                  >Användarnamn</label
+                >
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
+                  type="text"
+                  id="uNameSignin"
+                  name="uNameSignin"
+                  placeholder="Användarnamn"
+                  required
+                />
+              </div>
+              <div class="mb-6">
+                <label
+                  class="block text-gray-700 text-sm font-bold mb-2"
+                  for="pWordSignin"
+                  >Lösenord</label
+                >
+                <input
+                  class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-black focus:shadow-outline"
+                  type="password"
+                  id="pWordSignin"
+                  name="pWordSignin"
+                  placeholder="********"
+                  required
+                />
+              </div>
+              <input
+                type="submit"
+                value="Logga in"
+                class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded cursor-pointer"
+              />
+            </fieldset>
+          </form>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
